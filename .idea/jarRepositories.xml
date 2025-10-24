@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="adesso-flowable-repo" />
+      <option name="name" value="flowable-maven-all" />
+      <option name="url" value="https://artifactory.adesso-group.com/artifactory/adch-flowable-showcase-repo.flowable.com-maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="eoc-flowable-repo" />
+      <option name="name" value="Flowable repo" />
+      <option name="url" value="https://repo.flowable.com/artifactory/flowable-maven-all/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="internal-libs" />
+      <option name="name" value="Eoc Nexus" />
+      <option name="url" value="https://nexus.eoc.ch/repository/eoc-maven-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gitlab-maven-shared" />
+      <option name="name" value="gitlab-maven-shared" />
+      <option name="url" value="https://git.ag.ch/api/v4/projects/493/packages/maven" />
+    </remote-repository>
+  </component>
+</project>
