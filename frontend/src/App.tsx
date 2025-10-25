@@ -1,12 +1,13 @@
-import './App.css';
+import './App.css'
+import CDApp from "./components/CDApp.tsx";
 
-const App = () => {
+function App() {
   return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
-    </div>
-  );
-};
+    <>
+        <CDApp></CDApp>
+        <CDApp></CDApp>
+    </>
+  )
+}
 
-export default App;
+export default App
